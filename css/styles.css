@@ -1,0 +1,165 @@
+/* Estilos del titulo */
+header {
+    background-image: url(https://media.istockphoto.com/id/1530744302/es/foto/bandera-de-acabado-ondeando-racing-con-textura-de-patr%C3%B3n-a-cuadros-en-c%C3%A1mara-lenta.jpg?s=2048x2048&w=is&k=20&c=snZ13F1DgB3kkW6UiJzq6wjnhL_cCeNOpdXoaIaZ3gI=);
+    background-position: center;
+    color: #fff;
+    font-size: x-large;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-titulo {
+    background-position: center;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-titulo img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    padding: 2rem;
+    background-color: #a2cdf8;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar-nav {
+    margin-left: auto; 
+}
+/* Estilos del diseño de la cuadrícula */
+.grid-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 16px; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    padding: 16px; 
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd; 
+    padding: 16px; 
+    margin-bottom: 16px; 
+}
+
+
+.c1 {
+    background-color: #ff9999; 
+}
+
+
+.c2 {
+    background-color: #99ccff; 
+}
+
+.puesto {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.lin1 {
+    text-align: center;
+}
+
+
+.caja h1,
+.caja p {
+    font-size: 1.5rem;
+}
+
+.caja img {
+    max-width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    vertical-align: middle;
+}
+
+/* Estilos del footer */
+.pie{
+    background-color: grey;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos del logo en el footer */
+.pie{
+    max-height: 100rem;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+/* Estilos del texto en el footer */
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+
+/* Estilos del pie de página en el footer */
+.derechos-de-autor {
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+}
+legend{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    /* Modifica estilos específicos para dispositivos móviles aquí */
+  
+    /* Por ejemplo, puedes ajustar el tamaño del título y cambiar el fondo de la barra de navegación */
+    .header-titulo {
+      font-size: medium;
+      background-color: #ccc; /* Cambia el color de fondo según tus preferencias */
+    }
+  
+    /* Puedes ajustar otros estilos según sea necesario */
+    .navbar {
+      padding: 1rem;
+      background-color: #f0f1f2; /* Cambia el color de fondo de la barra de navegación */
+    }
+  
+    /* Asegúrate de modificar otras reglas de estilo según tus necesidades específicas */
+}
+@media only screen and (max-width: 500px) {
+    .grid-layout {
+        grid-template-columns: auto; /* Cambiado a una sola columna en dispositivos móviles */
+    }
+}
